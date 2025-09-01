@@ -1,0 +1,78 @@
+# ------------------------------
+# C++ Build Artifacts
+# ------------------------------
+*.out
+*.o
+*.obj
+*.exe
+*.log
+*.a
+*.so
+*.dll
+*.dSYM/
+*.stackdump
+
+# CMake / Build systems
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+build/
+bin/
+lib/
+
+# ------------------------------
+# Rust (Cargo)
+# ------------------------------
+/target/
+/Cargo.lock
+**/*.rs.bk
+
+# Rust specific
+*.rlib
+*.d
+
+# ------------------------------
+# Go (Golang)
+# ------------------------------
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go build cache & vendor
+/vendor/
+/bin/
+/build/
+/dist/
+/coverage.out
+
+# ------------------------------
+# IDEs & Editors
+# ------------------------------
+# VS Code
+.vscode/
+.history/
+*.code-workspace
+
+# JetBrains (CLion, GoLand, RustRover)
+.idea/
+
+# Others
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ------------------------------
+# Testing & Coverage
+# ------------------------------
+*.gcda
+*.gcno
+*.gcov
+coverage/
