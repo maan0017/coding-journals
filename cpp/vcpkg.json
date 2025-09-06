@@ -1,0 +1,11 @@
+{
+  "name": "cpp",
+  "version": "0.0.0",
+  "dependencies": [
+    {
+      "name": "fmt",
+      "version>=": "11.2.0"
+    }
+  ],
+  "builtin-baseline": "fa8zqrkfjhx82j22jdfj07324jcz8q33402jsdhk"
+}
